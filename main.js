@@ -4,3 +4,7 @@ let getComputerChoice = () => {
 };
 
 console.log(getComputerChoice());
+
+let playRound = (playerChoice, computerChoice) => {
+    
+}
