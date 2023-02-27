@@ -83,4 +83,5 @@ const playGame = () => {
     Winner => ${gameWinner}`);
 };
 
-playGame();
+// playGame();
+const userButtons = document.querySelectorAll(".")

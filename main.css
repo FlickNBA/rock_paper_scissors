@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+}
+
+main {
+    width: 80%;
+    border: 4px solid #111;
+    background: #809ab0;
+    background: -webkit-linear-gradient(to top, #716d69, #809ab0);
+    background: linear-gradient(to top, #716d69, #809ab0);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    flex: 1 0 50%;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #eee;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons div {
+    flex: 1 0 33.33%;
+    padding: 0.5rem;
+}
+
+.buttons div a {
+    font-weight: 400;
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 1.33rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid #eee;
+    display: block;
+    color: #eee;
+    background: #12c2e9;
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+}
