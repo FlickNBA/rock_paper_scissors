@@ -1,9 +1,9 @@
-let getComputerChoice = () => {
+const getComputerChoice = () => {
   let R = Math.random();
   return R <= 0.3333 ? "Rock" : R <= 0.6667 ? "Paper" : "Scissors";
 };
 
-let playRound = (playerChoice, computerChoice) => {
+const playRound = (playerChoice, computerChoice) => {
   playerChoice = `${playerChoice.substr(0, 1).toUpperCase()}${playerChoice
     .substr(1)
     .toLowerCase()}`;
@@ -41,7 +41,7 @@ let playRound = (playerChoice, computerChoice) => {
   }
 };
 
-let playGame = () => {
+const playGame = () => {
   let playerScore = 0;
   let computerScore = 0;
   for (let i = 0; i < 5; i++) {
