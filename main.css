@@ -47,7 +47,7 @@ h1, h2 {
     padding: 0.5rem;
 }
 
-.buttons div a {
+.buttons div a, #computerChoice {
     font-weight: 400;
     width: 100%;
     padding: 0.5rem 0;
@@ -60,4 +60,46 @@ h1, h2 {
     background: #12c2e9;
     background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
     background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+}
+
+#computerChoice {
+    width: 75%;
+    margin: 1rem auto 0;
+}
+
+.recent {
+    text-align: center;
+}
+
+.recent h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h2 strong {
+    font-weight: 500;
+}
+
+h2 strong:nth-child(1) {
+    color: #12c2e9;
+}
+
+h2 strong:nth-child(2) {
+    color: #c471ed;
+}
+
+h2 strong:nth-child(3) {
+    color: #f64f59;
+}
+
+.recent h1 {
+    font-size: 2.25rem;
+}
+
+.winner {
+    text-align: center;
+}
+
+.winner h1 {
+    font-size: 4rem;
 }
